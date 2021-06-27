@@ -1,0 +1,1020 @@
+#################################################
+# THE VERY IMPORTANT SRB2KART LEVEL HEADER FILE #
+#################################################
+
+# TehRealSalt slaved away at reorganizing this mess...
+# Thank her for working on this instead of KIMOKAWAIII! :p
+
+######################
+# MAP01-05: Ring Cup #
+######################
+
+Level 3
+LevelName = Northern District
+SubTitle = Ring Cup 3
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 52
+SkyBoxScale = 10
+Weather = PRECIP_RAIN
+Music = KMAP03
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 4
+LevelName = Darkvile Garden
+Subtitle = Ring Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 11
+Weather = PRECIP_RAIN
+Music = KMAP04
+RecordAttack = true
+NoVisitNeeded = true
+
+#########################
+# MAP06-10: Sneaker Cup #
+#########################
+
+Level 6
+LevelName = Egg Zeppelin
+Subtitle = Sneaker Cup 1
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 7492
+SkyboxScale = 128
+Music = KMAP06
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 9
+LevelName = Misty Maze
+SubTitle = Sneaker Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 88
+Music = KMAP09
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 10
+LevelName = Grand Metropolis
+NoZone = true
+SubTitle = Sneaker Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 2
+SkyNum = 70
+Music = KMAP10
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+
+#######################
+# MAP11-15: Water Cup #
+#######################
+
+Level 12
+LevelName = Diamond Square
+SubTitle = Water Cup 2
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 8
+Weather = PRECIP_RAIN
+Music = KMAP12
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+
+Level 15
+LevelName = Pleasure Castle
+Nozone = true
+SubTitle = Water Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 1017
+Music = KMAP15
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+
+###########################
+# MAP16-20: Lightning Cup #
+###########################
+
+Level 17
+LevelName = Sub-Zero Peak
+SubTitle = Lightning Cup 2
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 55
+Weather = PRECIP_SNOW
+Music = KMAP17
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 19
+levelname = Sand Valley
+SubTitle = Lightning Cup 4
+Skynum = 6
+Music = KMAP19
+Weather = 0
+Typeoflevel = Singleplayer
+NumLaps = 3
+RecordAttack = True
+NoVisitNeeded = True
+
+######################
+# MAP21-25: Fire Cup #
+######################
+
+Level 21
+LevelName = Canyon Rush
+SubTitle = Fire Cup 1
+TypeOfLevel = Singleplayer
+NumLaps = 4
+SkyNum = 13
+Music = KMAP21
+RecordAttack = true
+NoVisitNeeded = true
+SectionRace = true
+
+Level 23
+LevelName = Silvercloud Island
+SubTitle = Fire Cup 3
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 31
+Music = KMAP23
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 24
+LevelName = Blue Mountain
+Subtitle = Fire Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 17
+SkyboxScale = 0
+Weather = PRECIP_SNOW
+Music = KMAP24
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 25
+LevelName = Petroleum Refinery
+Subtitle = Fire Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 2
+SkyNum = 75
+SkyboxScale = 128
+Music = KMAP25
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+
+############################
+# MAP26-30: Invincible Cup #
+############################
+
+Level 27
+LevelName = Aurora Atoll
+SubTitle = Invincible Cup 2
+TypeOfLevel = Singleplayer
+NumLaps = 3
+Palette = 71
+SkyNum = 71
+SkyboxScaleZ = 128
+Music = KMAP27
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 29
+LevelName = Red Barrage
+ZoneTitle = Area
+SubTitle = Invincible Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 821
+Music = KMAP29
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 30
+LevelName = Midnight Channel
+NoZone = true
+SubTitle = Invincible Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 2
+Music = KMAP30
+LUA.tv = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+
+#########################
+# MAP31-35: Emerald Cup #
+#########################
+
+Level 32
+LevelName = Toxic Palace
+SubTitle = Emerald Cup 2
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 117
+Music = KMAP32
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 33
+LevelName = Ancient Tomb
+SubTitle = Emerald Cup 3
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 74
+Music = KMAP33
+RecordAttack = true
+NoVisitNeeded = true
+SectionRace = true
+
+Level 34
+LevelName = Cloud Cradle
+Act = K
+SubTitle = Emerald Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 73
+Music = KMAP34
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 35
+LevelName = Volcanic Valley
+SubTitle = Emerald Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 28
+Music = KMAP35
+RecordAttack = true
+NoVisitNeeded = true
+Palette = 3
+NextLevel = EVALUATION
+
+#####################
+# MAP36-40: Egg Cup #
+#####################
+
+Level 36
+LevelName = Kodachrome Void
+SubTitle = Egg Cup 1
+TypeOfLevel = Singleplayer
+NumLaps = 3
+Music = KMAP36
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 1
+
+Level 37
+LevelName = Boiling Bedrock
+SubTitle = Egg Cup 2
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 2517
+Music = KMAP37
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 1
+
+Level 38
+LevelName = Egg Quarters
+NoZone = true
+SubTitle = Egg Cup 3
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 3262
+Music = KMAP38
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 1
+
+Level 40
+LevelName = Eggman's Nightclub
+SubTitle = Egg Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 2
+SkyNum = 8
+Music = KMAP40
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 1
+NextLevel = EVALUATION
+
+######################
+# MAP41-45: Chao Cup #
+######################
+
+Level 41
+LevelName = KKR Ganbare
+ZoneTitle = Dochu
+Act = 2
+SubTitle = Chao Cup 1
+TypeOfLevel = Singleplayer
+NumLaps = 5
+SkyNum = 714
+Music = KMAP41
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 2
+
+Level 43
+LevelName = CK Chao
+ZoneTitle = Circuit
+Act = 2
+SubTitle = Chao Cup 3
+TypeOfLevel = Singleplayer
+NumLaps = 2
+SkyNum = 3388
+Music = KMAP43
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 2
+
+Level 44
+LevelName = CK Cloud
+ZoneTitle = Tops
+Act = 2
+SubTitle = Chao Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 4
+Palette = 177
+SkyNum = 2002
+Music = KMAP44
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 2
+
+Level 45
+LevelName = CK Regal
+ZoneTitle = Raceway
+SubTitle = Chao Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 2
+SkyNum = 715
+Music = KMAP45
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 2
+NextLevel = EVALUATION
+
+########################
+# MAP46-50: Swap Cup A #
+########################
+
+Level 46
+LevelName = SD2 Balloon
+ZoneTitle = Panic
+SubTitle = Swap Cup 1
+TypeOfLevel = Singleplayer
+NumLaps = 4
+MobjScale = FRACUNIT/2
+SkyNum = 357
+Music = KMAP46
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 47
+LevelName = SM Special
+ZoneTitle = Stage
+Act = 3
+SubTitle = Swap Cup 2
+TypeOfLevel = Singleplayer
+NumLaps = 5
+MobjScale = 7*FRACUNIT/8
+SkyNum = 700
+SkyboxScale = 128
+Music = KMAP47
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 49
+LevelName = MKDS Peach
+ZoneTitle = Gardens
+SubTitle = Swap Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 30
+Music = KMAP49
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 50
+LevelName = MKSC Rainbow
+ZoneTitle = Road
+SubTitle = Swap Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 61
+SkyboxScale = 128
+Music = KMAP50
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = EVALUATION
+
+#####################
+# MAP51-55: SMK Cup #
+#####################
+
+Level 53
+LevelName = SMK Ghost
+ZoneTitle = Valley
+Act = 2
+SubTitle = SMK Cup 3
+TypeOfLevel = Singleplayer
+NumLaps = 5
+SkyNum = 46
+SkyboxScaleZ = 0
+Music = KMAP53
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 3
+
+Level 54
+LevelName = SMK Bowser
+ZoneTitle = Castle
+Act = 3
+SubTitle = SMK Cup 4
+TypeOfLevel = Singleplayer
+NumLaps = 5
+SkyNum = 6343
+SkyboxScaleZ = 0
+Music = KMAP54
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 3
+
+Level 55
+LevelName = SMK Vanilla
+ZoneTitle = Lake
+Act = 2
+SubTitle = SMK Cup FINAL
+TypeOfLevel = Singleplayer
+NumLaps = 5
+SkyNum = 45
+SkyboxScaleZ = 0
+Music = KMAP55
+RecordAttack = true
+NoVisitNeeded = true
+Unlockable = 3
+NextLevel = EVALUATION
+
+#########################
+# MAPB0-BZ: Battle Mode #
+#########################
+
+Level B0
+LevelName = Municipal Meadow
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPB0
+SkyNum = 91
+RecordAttack = 0
+LevelSelect = 1
+SkyboxScale = 64
+
+Level B1
+LevelName = Tricircle Marina
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 60
+SkyboxScale = 128
+Music = KMAPB1
+
+Level B2
+LevelName = Tinkerer's Arena
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 1
+Music = KMAPB2
+
+Level B3
+LevelName = Clucky Farms
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 2002
+Music = KMAPB3
+
+Level B4
+LevelName = Techno Hill
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPB4
+SkyNum = 4
+MobjScale = 7*FRACUNIT/8
+
+Level B5
+LevelName = Marble
+SkyNum = 88
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPB5
+
+Level B6
+LevelName = Colosseum
+SubTitle = Battle Mode
+NoZone = true
+TypeOfLevel = Battle
+Music = KMAPB6
+
+Level B7
+LevelName = Dried Battledune
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+#Palette = 77
+SkyNum = 4733
+Music = KMAPB7
+
+Level B8
+LevelName = Eerie Grove
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPB8
+SkyNum = 87
+
+Level B9
+LevelName = Rusty Rig
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 118
+Music = KMAPB9
+
+Level BA
+LevelName = Fantastic Tabernacle
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBA
+SkyNum = 1012
+
+Level BB
+LevelName = Bad Taste
+ZoneTitle = Aquarium
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBB
+SkyNum = 821
+
+Level BC
+LevelName = Spotlight Syndicate
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBC
+SkyNum = 8
+
+Level BD
+LevelName = City Skyline
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 52
+SkyboxScaleZ = 64
+Music = KMAPBD
+
+Level BE
+LevelName = Fakery Way
+SubTitle = Battle Mode
+NoZone = true
+TypeOfLevel = Battle
+Music = KMAPBE
+
+Level BF
+LevelName = Bumper Carts
+NoZone = true
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBF
+
+Level BG
+Levelname = Death Egg's Eye
+Subtitle = Battle Mode
+NoZone = true
+TypeOfLevel = Battle
+Skynum = 22
+Music = KMAPBG
+SkyboxScale = 0
+
+Level BH
+LevelName = Power Plant
+NoZone = true
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBH
+SkyNum = 6
+SkyBoxScale = 2
+
+Level BI
+LevelName = Tails' Lab
+NoZone = true
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBI
+
+Level BJ
+LevelName = Armored
+ZoneTitle = Armadillo
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBJ
+SkyNum = 91
+
+Level BK
+LevelName = Trigger Happy
+ZoneTitle = Havoc
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+Music = KMAPBK
+
+Level BL
+LevelName = Mementos
+NoZone = true
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 1
+Music = KMAPBL
+
+#########################
+# MAPBM-BS: Battle Swap #
+#########################
+
+Level BM
+LevelName = CD Special
+ZoneTitle = Stage
+Act = 1
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+NextLevel = B0
+SkyNum = 93
+Music = KMAPBM
+MobjScale = 3*FRACUNIT/4
+
+Level BN
+LevelName = SMK Battle
+ZoneTitle = Course
+Act = 1
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 42
+SkyboxScaleZ = 64
+Music = KMAPBN
+
+Level BO
+LevelName = SMK Battle
+ZoneTitle = Course
+Act = 2
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 45
+SkyboxScaleZ = 64
+Music = KMAPBN
+
+Level BP
+LevelName = SMK Battle
+ZoneTitle = Course
+Act = 3
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 45
+SkyboxScaleZ = 64
+Music = KMAPBP
+
+Level BQ
+LevelName = SMK Battle
+ZoneTitle = Course
+Act = 4
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 41
+SkyboxScaleZ = 64
+Music = KMAPBN
+
+Level BR
+LevelName = MK64 Block
+ZoneTitle = Fort
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 88
+SkyboxScale = 128
+Music = KMAPBR
+
+Level BS
+LevelName = MK64 Double
+ZoneTitle = Deck
+SubTitle = Battle Mode
+TypeOfLevel = Battle
+SkyNum = 88
+Music = KMAPBR
+NextLevel = B0
+
+###################
+####MAP HELL#######
+####THIS IS BAD####
+###################
+
+Level H0
+LevelName = Crystal Abyss
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 2
+Music = KMAPH0
+SkyNum = 87
+Hidden = true
+NextLevel = 1
+
+Level H1
+LevelName = Peach's Castle
+NoZone = true
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 30
+Music = KMAPH1
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level H2
+LevelName = Arid Sands
+SubTitle = MAP HELL
+NoZone = true
+TypeofLevel = Singleplayer
+NumLaps = 3
+Music = KMAPH2
+SkyNum = 72
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+# R.I.P old MAPH3: Septic Quarry Zone
+
+Level H4
+LevelName = Chemical Facility
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 2
+Music = KMAPH4
+SkyNum = 1017
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level H5
+LevelName = 3 Color Drive
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+Music = KMAPH5
+SkyNum = 78
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level H6
+LevelName = CK Cloud
+ZoneTitle = Tops
+Act = 1
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+Music = KMAPH6
+SkyNum = 1
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level H7
+LevelName = CK Dungeon
+ZoneTitle = Maze
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 4
+Music = KMAPH7
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+# R.I.P old MAPH8: CK Death Town
+
+Level H9
+LevelName = PWR Retro
+ZoneTitle = Maze
+Subtitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+MobjScale = 7*FRACUNIT/8
+SkyNum = 8
+Music = KMAPH9
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level HA
+LevelName = SRB2 Frozen
+ZoneTitle = Night
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 4
+SkyNum = 8
+Weather = PRECIP_SNOW
+Music = KMAPHA
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level HB
+LevelName = CNR Townsville
+ZoneTitle = Raceway
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+Music = KMAPHB
+SkyNum = 1019
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level HC
+LevelName = FZ Silence
+NoZone = true
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+MobjScale = FRACUNIT/2
+SkyNum = 2432
+Music = KMAPHC
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level HD
+LevelName = SMK Rainbow
+ZoneTitle = Road
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 5
+SkyNum = 46
+SkyboxScaleZ = 0
+Music = KMAPHD
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+###############
+# hell battle #
+###############
+
+Level HE
+LevelName = SRB2 Meadow
+ZoneTitle = Match
+SubTitle = MAP HELL
+TypeOfLevel = Battle
+Music = KMAPHE
+SkyNum = 1
+Hidden = True
+Nextlevel = B0
+
+Level HF
+LevelName = battal BOWL
+ZoneTitle = Match
+SubTitle = MAP HELL
+TypeOfLevel = Battle
+SkyNum = 371
+Music = KMAPHF
+Hidden = true
+NextLevel = B0
+
+###########################
+# Even More Hell (v1.0.2) #
+###########################
+
+Level H3
+LevelName = Volcanic Valley
+ZoneTitle = Classic
+SubTitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 117
+Music = KMAP35
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level H8
+LevelName = Diamond Square
+ZoneTitle = Classic
+SubTitle = MAP HELL
+SkyNum = 5
+Music = KMAPH8
+TypeofLevel = Singleplayer
+NumLaps = 3
+Hidden = true
+RecordAttack = true
+NoVisitNeeded = true
+NextLevel = 1
+
+Level HG
+LevelName = Peach's Castle B
+NoZone = true
+SubTitle = MAP HELL
+TypeOfLevel = Battle
+SkyNum = 30
+Music = KMAPH1
+Hidden = true
+NextLevel = B0
+
+Level HH
+LevelName = Blue Mountain
+ZoneTitle = Classic
+Subtitle = MAP HELL
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 17
+SkyboxScale = 0
+Weather = PRECIP_SNOW
+Music = KMAPHH
+RecordAttack = true
+NoVisitNeeded = true
+Hidden = true
+Nextlevel = 1
+
+Level HB
+Levelname = Black Bliss
+Nozone = 1
+NumLaps = 4
+TypeOfLevel = Singleplayer
+Music = NEWKHB
+Nextlevel = 1
+Skynum = 11
+RecordAttack = True
+Hidden = True
+Weather = Precip_Rain
+Subtitle = MAP HELL
+
+Level 56
+LevelName = Lake Margorite
+SubTitle = Comm. Cup 1 by MK
+TypeOfLevel = Singleplayer
+NumLaps = 3
+SkyNum = 188
+Music = map56m
+RecordAttack = true
+NoVisitNeeded = true
+
+Level 58
+Levelname = Kart Airlines
+Music = MAP58M
+Skynum = 31
+RecordAttack = true
+TYPEOFLEVEL = Singleplayer
+NoVisitNeeded = true
+NumLaps = 3
+SectionRace = true
+subtitle = Comm. Cup 3 by V.R.T.
+
+Level 59
+LevelName = Honeybee Industry
+SubTitle = Comm. Cup 4 by fickle
+TypeOfLevel = Singleplayer
+Music = MAP59M
+NumLaps = 3
+SkyNum = 456
+Palette = 422
+RecordAttack = true
+NoVisitNeeded = true
+# Music:
+# TAG
+# ZEPHYRANTHES
+# [from Bemani's NEW Generation natsu no ryuusei festa 2016 event]
+
+LEVEL 60
+LEVELNAME = Crimson Core
+SUBTITLE = Comm. Cup 5 by Ninferno
+MUSIC = MAP60M
+LEVELSELECT = 1
+TYPEOFLEVEL = Singleplayer
+SKYNUM = 87
+RecordAttack = true
+NoVisitNeeded = true
+NUMLAPS = 3
+NextLevel = EVALUATION
+
+Freeslot
+SFX_WRINK
+
